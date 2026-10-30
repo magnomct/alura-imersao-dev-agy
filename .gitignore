@@ -14,7 +14,7 @@ venv/
 .adk/
 
 # Planos gerados pelo agente (dados pessoais)
-planos/
+# planos/
 
 # Sistema e editores
 .DS_Store

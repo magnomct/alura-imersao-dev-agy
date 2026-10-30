@@ -18,8 +18,8 @@ SKILL_DIR = APP_DIR / "skills" / "plano-de-estudos"
 PLANOS_DIR = BASE_DIR / "planos"
 PLANOS_DIR.mkdir(parents=True, exist_ok=True)
 
-# Modelo configurável via variável de ambiente MODEL (padrão: gemini-3.8-flash)
-MODEL = os.getenv("MODEL", "gemini-3.8-flash")
+# Modelo configurável via variável de ambiente MODEL (padrão: gemini-flash-lite-latest)
+MODEL = os.getenv("MODEL", "gemini-flash-lite-latest")
 
 
 class FerramentasDeArquivo(EnvironmentToolset):

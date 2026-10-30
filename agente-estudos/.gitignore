@@ -220,4 +220,4 @@ credentials*.json
 /.agents-cli-original/
 
 # Planos gerados pelo agente (dados pessoais)
-planos/
+# planos/
